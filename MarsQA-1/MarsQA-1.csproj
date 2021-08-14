@@ -163,7 +163,10 @@
     <Compile Include="SpecflowPages\Helpers\ConstantHelpers.cs" />
     <Compile Include="SpecflowPages\Helpers\Driver.cs" />
     <Compile Include="SpecflowPages\Helpers\ExcelLibHelper.cs" />
+    <Compile Include="SpecflowPages\Pages\ChangeName.cs" />
+    <Compile Include="SpecflowPages\Pages\LanguagePage.cs" />
     <Compile Include="SpecflowPages\Pages\SignIn.cs" />
+    <Compile Include="SpecflowPages\Pages\SkillsPage.cs" />
     <Compile Include="SpecflowPages\Utils\Start.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -171,6 +174,7 @@
     <None Include="App.config" />
     <None Include="Feature\Login.feature" />
     <None Include="Feature\ProfilePageCertifications.feature" />
+    <None Include="Feature\ProfilePageDescription.feature" />
     <None Include="Feature\ProfilePageEarnTarget.feature" />
     <None Include="Feature\ProfilePageEducation.feature" />
     <None Include="Feature\ProfilePageHours.feature" />

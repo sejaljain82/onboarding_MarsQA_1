@@ -16,8 +16,7 @@ Scenario:Seller tries to Delete entry on Skills tab
  @mytag  
  Scenario:Seller tries to Edit the existing entry on Skills tab
       Given Seller is on Skills tab to update Skills table
-      When Seller clicks on pencil icon on the row on the skill table
-      And Updates the recored  Skills Table by clicks on ‘Update’
+      When Seller clicks on pencil icon on the row on the skill table to Updates the recored 
       Then The changes are reflected in the table on Languages tab also a message “{skills} has been updated to your skills ”appears 
 
 @mytag

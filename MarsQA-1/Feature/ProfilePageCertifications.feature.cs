@@ -146,14 +146,14 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 11
-           testRunner.Given("Seller is on   Certifications tab to add existing  Certifications record", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+           testRunner.Given("Seller is on Certifications tab to add existing  Certifications record", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 12
            testRunner.When("Seller clicks on ‘Add New’ adds already existing  Certifications data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 13
-           testRunner.Then("Clicks on ‘Add’ button an error message “This information is already exist” appea" +
-                        "rs", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+           testRunner.Then("Clicks on ‘Add’ on Certifications tab  button an error message “This information " +
+                        "is already exist” appears", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -195,7 +195,7 @@ this.ScenarioInitialize(scenarioInfo);
            testRunner.When("Seller clicks on pencil icon on the row of  Certifications Table", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 19
-           testRunner.And("Updates the recored  Certifications Table clicks on ‘Update’", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+           testRunner.And("Updates the recored  Certifications Table by clicks on ‘Update’", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 20
            testRunner.Then("The changes are reflected in the table on Certifications tab also a message “{cer" +

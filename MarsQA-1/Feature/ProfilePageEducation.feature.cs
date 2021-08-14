@@ -152,7 +152,8 @@ this.ScenarioInitialize(scenarioInfo);
            testRunner.When("Seller clicks on ‘Add New’ adds already existing Education data", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 13
-           testRunner.Then("clicks on ‘Add’ an error message “This information is already exist” appears", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+           testRunner.Then("clicks on ‘Add’on Education tab an error message “This information is already exi" +
+                        "st” appears", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -194,7 +195,7 @@ this.ScenarioInitialize(scenarioInfo);
            testRunner.When("Seller clicks on pencil icon on the row of Education Table", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 19
-           testRunner.And("Updates the recored Eduction Table clicks on ‘Update’", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+           testRunner.And("Updates the recored Eduction Table by clicks on ‘Update’", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 20
            testRunner.Then("The changes are reflected in the table on Education tab also a message “{Educatio" +
