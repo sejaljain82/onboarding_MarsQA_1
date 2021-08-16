@@ -30,7 +30,7 @@ namespace MarsQA_1.Pages
         public void AddLanguage()
         {
            
-            try
+           // try
             {
 
                 //click on 'Add New'button 
@@ -48,7 +48,7 @@ namespace MarsQA_1.Pages
                 var LeveldatafromExcel = ExcelLibHelper.ReadData(i, "Level");
 
                 //Find Add Language input box and add language
-                Driver.driver.FindElement(By.XPath("(//span[text()='Achiver']/following::input)[1]")).SendKeys(LanguagedatafromExcel);
+                Driver.driver.FindElement(By.XPath("//*[@id='account-profile-section']/div/section[2]/div/div/div/div[3]/form/div[2]/div/div[2]/div/div/div[1]/input")).SendKeys(LanguagedatafromExcel);
 
                 //Find the drop down box to add Language Level
                 var LanguageLevel = Driver.driver.FindElement(By.Name("level"));
@@ -64,13 +64,13 @@ namespace MarsQA_1.Pages
 
 
             }
-            catch
+          /*  catch
             {
 
                 errorMessage = Driver.driver.FindElement(By.XPath("//div[@class='ns-box-inner']"));
                 actulmessage = errorMessage.Text;
                 Assert.Fail(actulmessage);
-            }
+            }*/
 
 
         }
