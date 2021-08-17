@@ -156,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Feature\Login.cs" />
+    <Compile Include="Feature\ProfilePageEducationSteps.cs" />
     <Compile Include="Feature\ProfilePageLanguagesSteps.cs" />
     <Compile Include="Feature\ProfilePageSkillsSteps.cs" />
     <Compile Include="Feature\ProflieNameChangeSteps.cs" />
@@ -164,6 +165,7 @@
     <Compile Include="SpecflowPages\Helpers\Driver.cs" />
     <Compile Include="SpecflowPages\Helpers\ExcelLibHelper.cs" />
     <Compile Include="SpecflowPages\Pages\ChangeName.cs" />
+    <Compile Include="SpecflowPages\Pages\EducationPage.cs" />
     <Compile Include="SpecflowPages\Pages\LanguagePage.cs" />
     <Compile Include="SpecflowPages\Pages\SignIn.cs" />
     <Compile Include="SpecflowPages\Pages\SkillsPage.cs" />
