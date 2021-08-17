@@ -30,7 +30,7 @@ namespace MarsQA_1.Pages
         public void AddLanguage()
         {
            
-           // try
+            try
             {
 
                 //click on 'Add New'button 
@@ -64,13 +64,13 @@ namespace MarsQA_1.Pages
 
 
             }
-          /*  catch
+            catch
             {
 
                 errorMessage = Driver.driver.FindElement(By.XPath("//div[@class='ns-box-inner']"));
                 actulmessage = errorMessage.Text;
                 Assert.Fail(actulmessage);
-            }*/
+            }
 
 
         }
