@@ -25,8 +25,12 @@ Scenario:Seller tries to Delete entry on Certifications tab
            When Seller clicks on Cross icon on the row of Certifications table
            Then The row is deleted from the table on Certifications Tab also a message “{certification} has been deleted from your certification ”appears
 
-
-
+@mytag 
+Scenario:Seller is able Add Certifications
+	Given Seller is on Certifications tab
+    When Seller clicks on ‘Add New’ on Certification tab
+    But clikcs on 'Add' without adding data on Certification tab
+    Then A message "Please enter Certification Name Certification Fromand Certification Year” appears
 
 
 

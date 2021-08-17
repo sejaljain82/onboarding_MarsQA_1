@@ -24,3 +24,10 @@ Scenario:Seller tries to Add already existing Skillsthen error message pops up
            Given Seller is on   Skills tab to add existing  Skills record
            When Seller clicks on ‘Add New’ adds already existing  Skills data
            Then Clicks on ‘Add’ on Skills tab button an error message “This information is already exist” appears
+
+            @mytag 
+Scenario:Seller is able Add Skills tab
+	Given Seller is on Skills tab to add data
+    When Seller clicks on ‘Add New’ on Skills tab
+    But clikcs on 'Add' without adding data on Skills tab
+    Then A message "Please enter skills and experience level"appears 

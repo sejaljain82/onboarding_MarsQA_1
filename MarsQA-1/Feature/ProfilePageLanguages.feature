@@ -29,6 +29,13 @@ Scenario:'AddNew' buttion is hidden After Seller has add Fourth Languages Record
       Given Seller is on Language tab ties to add existing Language record
       When Seller clicks on ‘Add New’ tries to add already existing Language data
       Then an error message ”Duplicate Data” appears
-	  
+ 
+
+ @mytag 
+Scenario:Seller is able Add Language tab
+	Given Seller is on Language tab to add data
+    When Seller clicks on ‘Add New’ on Language tab
+    But clikcs on 'Add' without adding data on Language tab
+    Then A message "Please enter language and level"appears  
 	  
 
